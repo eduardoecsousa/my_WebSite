@@ -121,6 +121,14 @@ footer {
 
 #formacao_academica {
   list-style-type: none;
-  font-size: 30px;
+  font-size:22px;
   color: rgba(68, 89, 100, 1);
+}
+
+#formacao_academica li {
+  margin-top: 6px;
+}
+
+.img_formacao {
+  width: 120px;
 }
