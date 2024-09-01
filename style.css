@@ -134,9 +134,26 @@ footer {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(68, 89, 100, 0.4) ;
   width: 300px;
   margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card h4 {
+  margin: 10px;
+}
+
+.card a {
+  border: 1px black solid;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color:  rgba(38, 49, 56, 0.5) ;
+  color: #fff;
 }
 
 .card .img {
@@ -146,18 +163,18 @@ footer {
 
 .card .img img{
   margin-top: 20px;
-  width: 200px;
+  width: 190px;
   border-radius: 20px;
   border: solid black;
 }
 
 #img_appreceitas {
-  width: 100px;
+  width: 90px;
 }
 
 #img_trybetunes {
   width: 250px;
-  height: 200px;
+  height: 180px;
 }
 
 .my_projects {
@@ -167,5 +184,5 @@ footer {
 
 #todolist {
   width: 250px;
-  height: 200px;
+  height: 180px;
 }
