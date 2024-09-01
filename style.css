@@ -186,3 +186,32 @@ footer {
   width: 250px;
   height: 180px;
 }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.formulario label {
+  margin: 10px;
+  color: rgba(68, 89, 100, 1);
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  transition-duration: 0.4s;
+  width: 100px;
+  background-color: rgba(38, 49, 56, 1);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: none;
+
+}
+
+.button:hover {
+  background-color: rgba(68, 89, 100, 1); /* Green */
+  color: black;
+}
