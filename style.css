@@ -132,3 +132,40 @@ footer {
 .img_formacao {
   width: 120px;
 }
+
+.card {
+  background-color: rgba(68, 89, 100, 0.4) ;
+  width: 300px;
+  margin: 10px;
+}
+
+.card .img {
+  display: flex;
+  justify-content: center;
+}
+
+.card .img img{
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 20px;
+  border: solid black;
+}
+
+#img_appreceitas {
+  width: 100px;
+}
+
+#img_trybetunes {
+  width: 250px;
+  height: 200px;
+}
+
+.my_projects {
+  display: flex;
+  justify-content: center;
+}
+
+#todolist {
+  width: 250px;
+  height: 200px;
+}
